@@ -1,40 +1,75 @@
-# URL Shortener
+# FREE URL Shortener Project
 
-## Overview
-This is a URL-shortening service built using Node.js and Express. It allows users to create short URLs that redirect to longer URLs.
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Features
-- Generate short URLs from long URLs.
-- Redirect users to the original URL when they visit the short URL.
-- Track the number of visits to each short URL.
+## Description
+This is a URL shortener service that allows users to generate short URLs for their long URLs. The service is built using Node.js for the backend and a simple HTML/CSS/JavaScript frontend.
 
 ## Installation
-1. Clone the repository:
+1. **Clone the repository:**
    ```sh
-   git clone https://github.com/Pruthavirajsingh/URL-Shortener.git
-   cd URL-Shortener
-Install dependencies:
+   git clone https://github.com/Pruthavirajsingh/URL-Shortner.git
+   cd URL-Shortner
+   ```
 
-npm install
-Set up environment variables:
+2. **Install backend dependencies:**
+   ```sh
+   cd backend
+   npm install
+   ```
 
-Create a .env file in the backend directory and add the following:
-PORT=3000
-MONGO_URI=your_mongodb_connection_string
-Start the server:
+3. **Install frontend dependencies:**
+   ```sh
+   cd ../frontend
+   npm install
+   ```
 
-npm start
-Usage
-To create a short URL, send a POST request to /api/shorten with the long URL in the request body:
+4. **Set up environment variables:**
+   - Create a `.env` file in the `backend` directory and add the following variables:
+     ```sh
+     PORT=5000
+     MONGO_URI=your_mongodb_connection_string
+     ```
 
-{
-  "longUrl": "https://example.com"
-}
-To redirect to the original URL, visit the short URL:
+5. **Start the backend server:**
+   ```sh
+   cd backend
+   npm start
+   ```
 
-http://localhost:3000/short-url
-Contributing
-Contributions are welcome! Please open an issue or submit a pull request.
+6. **Start the frontend server:**
+   ```sh
+   cd ../frontend
+   npm start
+   ```
 
-License
-This project is licensed under the MIT License.
+## Usage
+1. **Shorten a URL:**
+   - Open your browser and navigate to `http://localhost:3000`.
+   - Enter a long URL in the input field and click the "Shorten" button.
+   - The shortened URL will be displayed.
+
+2. **Redirect to the original URL:**
+   - Click on the shortened URL to be redirected to the original URL.
+
+## Contributing
+Contributions are welcome! Please follow these guidelines:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes and push to your branch.
+4. Open a pull request.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+For any questions or feedback, please contact:
+- **Email:** mathsxpruthaviraj@gmail.com
+- **GitHub:** [Pruthavirajsingh](https://github.com/Pruthavirajsingh)
+
