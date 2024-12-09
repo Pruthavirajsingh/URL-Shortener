@@ -1,5 +1,7 @@
 # FREE URL Shortener Project
 
+# URL Shortener
+
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -31,11 +33,12 @@ This is a URL shortener service that allows users to generate short URLs for the
    ```
 
 4. **Set up environment variables:**
-   - Create a `.env` file in the `backend` directory and add the following variables:
+   - Due to sensitive credentials, the `.env` file is not included in the repository. You need to create your own `.env` file in the `backend` directory and add the following variables:
      ```sh
      PORT=5000
      MONGO_URI=your_mongodb_connection_string
      ```
+   - Replace `your_mongodb_connection_string` with your actual MongoDB connection string.(I used MongoDB Atlas)
 
 5. **Start the backend server:**
    ```sh
@@ -72,4 +75,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For any questions or feedback, please contact:
 - **Email:** mathsxpruthaviraj@gmail.com
 - **GitHub:** [Pruthavirajsingh](https://github.com/Pruthavirajsingh)
-
