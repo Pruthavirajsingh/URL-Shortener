@@ -1,0 +1,191 @@
+/* General body styles */
+/* Set the font family, background image, and default text color */
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('Thermomaticbg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+/* Styles for the ad container */
+/* Define the size, background color, margin, and alignment for the ad container */
+.ad-container {
+    width: 100%;
+    height: 150px;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.ad-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Adjust the form to ensure the input box is properly sized and aligned */
+/* Set the width, max-width, and centering for the form container */
+.form-container .card {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Style the input fields within the form */
+.form-container .card input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the submit button within the form */
+.form-container .card button {
+    width: 50%;
+    padding: 10px;
+    background-color: #ffa31a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Change the button background color on hover */
+.form-container .card button:hover {
+    background-color: #ffa31a;
+}
+
+/* Navbar styles */
+/* Define the background, padding, and alignment for the navbar */
+.navbar {
+    background: #ffa31a;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Define the alignment and width for the navbar container */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Style the logo container */
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Style the logo image */
+.navbar-logo img {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Style the navbar menu */
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the menu items */
+.navbar-menu li {
+    margin: 0 10px;
+}
+
+/* Style the menu links */
+.navbar-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Change the link background and text color on hover */
+.navbar-menu a:hover {
+    background: #ffa31a;
+    color: #fff;
+}
+
+/* Container styles */
+/* Define the max-width, margin, padding, and text alignment for the container */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header styles */
+/* Define the margin and text color for the header */
+.header {
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+/* Style the header title */
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+/* Style the header paragraph */
+.header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Logo styles */
+/* Style the logo image */
+.logo {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Illustration styles */
+/* Style the illustration image */
+.illustration img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Call-to-action buttons styles */
+/* Define the text decoration, font size, padding, border radius, margin, display, and transition for the call-to-action buttons */
+.cta-buttons a {
+    text-decoration: none;
+    font-size: 1em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.3s, background 0.3s;
+}
+
+/* Style the primary call-to-action button */
+.cta-buttons .btn-primary {
+    background: #ffa31a;
+    color: #fff;
+    border: none;
+}
+
+/* Change the background color of the primary button on hover */
+.cta-buttons .btn-primary:hover {
+    background: #ffa31a;
+}

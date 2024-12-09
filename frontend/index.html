@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.png.png" type="image/png">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <!-- Navbar Logo -->
+            <a href="#" class="navbar-logo">
+                <img src="techtieslogo.png" alt="TIES Media Logo" class="logo">
+            </a>
+            <!-- Navbar Menu -->
+            <ul class="navbar-menu">
+                <li><a href="#urlForm" class="navbar-link">Shorten URL</a></li>
+                <li><a href="#about" class="navbar-link">About</a></li>
+                <li><a href="#contact" class="navbar-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <h1>Short Links</h1>
+            <p>Shorten, share, and track your links effortlessly.</p>
+            <!-- Call-to-Action Buttons -->
+            <div class="cta-buttons">
+                <a href="#urlForm" class="btn btn-primary">Shorten Your First URL</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </header>
+        <!-- Main Content Section -->
+        <main class="main-content">
+            <!-- Ad Container (for ads or branding content) -->
+<div class="ad-container">
+    <img src="adbanner.png" alt="Ad Banner" />
+</div>
+            <!-- Form Container -->
+            <div class="form-container">
+                <!-- Card with Glass Effect -->
+                <div class="card glass-effect">
+                    <!-- URL Form -->
+                    <form id="urlForm">
+                        <input type="url" id="longUrl" placeholder="Paste your long URL here..." required />
+                        <button type="submit">Generate Short Link</button>
+                        <!-- Result Section for Displaying Shortened URL -->
+                        <div id="shortenedUrl" class="result-section" style="margin-top: 10px; color: #007bff;"></div>
+                    </form>
+                </div>
+            </div>
+            <!-- Content Card -->
+            <div class="content-card">
+                <h2>All Content</h2>
+                <div id="content-section" class="content-section"></div>
+            </div>
+        </main>
+        <!-- Footer Section -->
+        <footer class="footer">
+            <div class="footer-section">
+                <a href="#">Help</a>
+                <a href="#">About</a>
+                <a href="#">Legal</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="footer-note">
+                Made with ❤️ by TIES Media
+            </div>
+        </footer>
+    </div>
+    <!-- Script for Application Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
